@@ -24,7 +24,10 @@ public class LongestPalindrome_Pro62 {
 				idx=i;
 			}}
 		}
+		if(starr[idx]!=null)
 		System.out.println(starr[idx]);
+		else
+			System.out.println("No Palindrome");
 	}
 	public static void main(String[] args) {
 		Scanner in=new Scanner(System.in);
