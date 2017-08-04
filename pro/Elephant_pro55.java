@@ -35,6 +35,7 @@ public class Elephant_pro55 {
 			arr[i]=in.nextInt();
 		}
 		Arrays.sort(arr);
+		System.out.println("Capable to place");
 		findNumberOfElephant(arr,w);
 		
 	}
