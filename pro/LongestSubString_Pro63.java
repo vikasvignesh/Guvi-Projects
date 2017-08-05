@@ -7,6 +7,7 @@ import java.util.Set;
 public class LongestSubString_Pro63 {
 	public static void main(String[] args) {
 		Scanner in=new Scanner(System.in);
+		System.out.println("Enter the String");
 		String s=in.next();
 		int cot=0;
 		int k=0;
@@ -32,6 +33,7 @@ public class LongestSubString_Pro63 {
 				idx=i;
 			}
 		}
+		System.out.println("The Common length of substring");
 		if(arr[idx]==null)
 			System.out.println(s.length());
 		else
